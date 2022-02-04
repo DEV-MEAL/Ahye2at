@@ -62,25 +62,25 @@ BODY
     border: 1px solid #0080ff
 }
 
-@media(min-width:568px) {
+@media(min-width:701px) {
     .container-fluid {
         position: absolute;
         top: 50%; left: 50%;
         transform: translate(-50%,-50%);
         width: 96%;
-        padding-top: 50px;
-        padding-bottom: 50px
+        padding-top: 175px;
+        padding-bottom: 175px
     }
 }
 
-@media(max-width:567px) {
+@media(max-width:700px) {
     .container-fluid {
         position: absolute;
         top: 50%; left: 50%;
         transform: translate(-50%,-50%);
         width: 94%;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 50px;
+        padding-bottom: 50px;
    
     }
 
