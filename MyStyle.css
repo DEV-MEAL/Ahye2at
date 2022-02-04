@@ -1,0 +1,101 @@
+body {
+    background-color: #ca9f7ccc;
+    background-image: url("Banner.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+BODY
+{
+    margin: 0;
+    padding: 0;
+}
+.divP{
+    position: relative;
+    height:100vh;
+}
+.container-fluid {
+    background-color: #5c5a58b7
+}
+
+.msg-form {
+    background-color: white;
+    padding: 20px
+}
+.center-screen {
+
+    text-align: center;
+
+  }
+.pad-icon {
+    padding-top: 50px;
+    padding-left: 20px;
+    width:5%
+}
+
+.pad-icon a {
+    text-decoration: none;
+    margin-right: 40px
+}
+
+.input-group input:focus {
+    border: 1px solid blue
+}
+
+.pad-icon a:active {
+    height: 30px;
+    width: 30px;
+    background-color: #0080ff;
+    border-radius: 100%
+}
+
+.links {
+    padding-top: 50px;
+    width: 50%;
+    text-align:center;
+}
+
+#bordering a:active {
+    border: 1px solid #0080ff
+}
+
+@media(min-width:568px) {
+    .container-fluid {
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%,-50%);
+        width: 96%;
+        padding-top: 50px;
+        padding-bottom: 50px
+    }
+}
+
+@media(max-width:567px) {
+    .container-fluid {
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%,-50%);
+        width: 94%;
+        padding-top: 20px;
+        padding-bottom: 20px
+    }
+
+    .pad {
+        padding-top: 20px
+    }
+}
+.fa.fa-instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  .fa-facebook-square {
+    color: #3b5998;
+    background-image: linear-gradient( to bottom, transparent 20%, white 20%, white 93%, transparent 93% );
+    background-size: 84%;
+    background-position: 60% 0;
+    background-repeat: no-repeat;
+
+  }
