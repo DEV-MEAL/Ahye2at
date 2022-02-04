@@ -16,7 +16,11 @@ BODY
 .container-fluid {
     background-color: #5c5a58b7
 }
+.green-color {
+    color: #0dd62e;
+ 
 
+}
 .msg-form {
     background-color: white;
     padding: 20px
@@ -76,7 +80,8 @@ BODY
         transform: translate(-50%,-50%);
         width: 94%;
         padding-top: 20px;
-        padding-bottom: 20px
+        padding-bottom: 20px;
+   
     }
 
     .pad {
