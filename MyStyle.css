@@ -1,6 +1,6 @@
 body {
     background-color: #ca9f7ccc;
-    background-image: url("Banner.png");
+    background-image: url("Banner.jpeg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -62,7 +62,7 @@ BODY
     border: 1px solid #0080ff
 }
 
-@media(min-width:701px) {
+@media(min-width:901px) {
     .container-fluid {
         position: absolute;
         top: 50%; left: 50%;
@@ -73,7 +73,7 @@ BODY
     }
 }
 
-@media(max-width:700px) {
+@media(max-width:900px) {
     .container-fluid {
         position: absolute;
         top: 50%; left: 50%;
