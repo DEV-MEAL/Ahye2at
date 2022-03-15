@@ -81,7 +81,9 @@ body
         padding-bottom: 50px;
    
     }
-
+    .sp{
+        font-size: xx-large;
+    }
     .pad {
         padding-top: 20px
     }
@@ -94,14 +96,16 @@ body
     left: 50%;
     /* height: 100%; */
     transform: translate(-50%,-50%);
-    width: 75%;
+    width: 85%;
     padding-top: 50%;
     padding-bottom: 175px;
 }
 .fa1{
-    font-size: 80px;;
+    font-size: 80px;}
+.sp{
+    font-size: small;
 }
-}
+
 .fa.fa-instagram {
     color: transparent;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
