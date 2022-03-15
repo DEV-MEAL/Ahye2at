@@ -97,7 +97,7 @@ body
     /* height: 100%; */
     transform: translate(-50%,-50%);
     width: 85%;
-    padding-top: 50%;
+    padding-top: 5%;
     padding-bottom: 175px;
 }
 .fa1{
@@ -122,3 +122,4 @@ body
     background-repeat: no-repeat;
 
   }
+}
