@@ -14,7 +14,7 @@ BODY
     height:100vh;
 }
 .container-fluid {
-    background-color: #5c5a58b7
+    background-color:#5c5a5847
 }
 .green-color {
     color: #0dd62e;
@@ -62,23 +62,13 @@ BODY
     border: 1px solid #0080ff
 }
 
+
 @media(min-width:901px) {
     .container-fluid {
         position: absolute;
         top: 50%; left: 50%;
         transform: translate(-50%,-50%);
-        width: 96%;
-        padding-top: 175px;
-        padding-bottom: 175px
-    }
-}
-
-@media(max-width:900px) {
-    .container-fluid {
-        position: absolute;
-        top: 50%; left: 50%;
-        transform: translate(-50%,-50%);
-        width: 94%;
+        width: 50%;
         padding-top: 50px;
         padding-bottom: 50px;
    
@@ -87,6 +77,22 @@ BODY
     .pad {
         padding-top: 20px
     }
+}
+
+@media (max-width: 900px){
+    .container-fluid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 85%;
+    transform: translate(-50%,-50%);
+    width: 75%;
+    padding-top: 5%;
+    padding-bottom: 175px;
+}
+.fa1{
+    font-size: 120px;;
+}
 }
 .fa.fa-instagram {
     color: transparent;
