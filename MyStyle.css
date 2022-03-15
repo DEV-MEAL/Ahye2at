@@ -1,13 +1,21 @@
-body {
+/* body {
     background-color: #ca9f7ccc;
     background-image: url("Banner.jpeg");
-    background-repeat: no-repeat;
+    background-repeat:inherit;
     background-size: 100% 100%;
+} */
+html { 
+    background: url('Banner.jpeg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:100% 100%;
 }
-BODY
+body
 {
     margin: 0;
     padding: 0;
+    background-color:transparent;
 }
 .divP{
     position: relative;
@@ -84,14 +92,14 @@ BODY
     position: absolute;
     top: 50%;
     left: 50%;
-    height: 85%;
+    /* height: 100%; */
     transform: translate(-50%,-50%);
     width: 75%;
-    padding-top: 5%;
+    padding-top: 50%;
     padding-bottom: 175px;
 }
 .fa1{
-    font-size: 120px;;
+    font-size: 80px;;
 }
 }
 .fa.fa-instagram {
